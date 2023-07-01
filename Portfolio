@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CinematicWavz - Portfolio</title>
+  <style>
+    /* Add your CSS styles here */
+
+    /* Example styles for the header, adjust as needed */
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Example styles for the project section, adjust as needed */
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project h3 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .project p {
+      margin: 0;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    /* Example styles for the contact section, adjust as needed */
+    #contact {
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    #contact p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>CinematicWavz</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About section -->
+  <section id="about">
+    <h2>About CinematicWavz</h2>
+    <p>Add an introduction to CinematicWavz here, describing your production house, your services, and your mission.</p>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <img src="project1.jpg" alt="Project 1">
+      <p>Add a description of your project here.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <img src="project2.jpg" alt="Project 2">
+      <p>Add a description of your project here.</p>
+      <a href="#">View Project</a>
+    </div>
+    <!-- Add more project entries as needed -->
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <h2>Contact CinematicWavz</h2>
+    <p>Add your contact information here, such as email, phone number, and social media handles.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 CinematicWavz. All rights reserved.</p>
+  </footer>
+</body>
+</html>
